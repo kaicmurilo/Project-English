@@ -1,0 +1,43 @@
+/* Estilo geral */
+.App {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  width: 100vw;
+  transition: background-color 0.5s, color 0.5s;
+}
+
+/* Tema claro */
+.light {
+  background-color: white;
+  color: black;
+}
+
+/* Tema escuro */
+.dark {
+  background-color: #121212;
+  color: white;
+}
+
+/* Estilo para o botão de alternância de tema */
+.theme-toggle-button {
+  margin: 20px;
+  padding: 10px;
+  font-size: 24px;
+  cursor: pointer;
+  border: none;
+  background: none;
+  color: inherit;
+  transition: color 0.3s;
+}
+
+.theme-toggle-button:focus {
+  outline: none;
+}
+
+/* Outros estilos */
+.mascot, .chat {
+  margin-top: 20px;
+}

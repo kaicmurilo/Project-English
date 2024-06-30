@@ -1,0 +1,10 @@
+.mascot {
+  text-align: center;
+  margin-top: 20px;
+}
+
+#robot-svg {
+  width: 100%;
+  max-width: 150px; /* Ajuste conforme necessário */
+  height: auto;
+}
