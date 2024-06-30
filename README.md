@@ -1,4 +1,3 @@
-
 # Project English
 
 **Project English** é uma aplicação web desenvolvida para auxiliar usuários no aprendizado do inglês. Utilizando React para o frontend e Node.js com Nest.js para o backend, a aplicação oferece uma interface interativa onde os usuários podem engajar em conversas em inglês. Através de integrações com a API da OpenAI, a aplicação não só mantém conversas fluídas em inglês, mas também oferece correções e explicações detalhadas em português, ajudando os usuários a melhorar seu domínio do idioma. Com armazenamento de histórico de conversas no MongoDB, o sistema proporciona um ambiente contínuo de aprendizado, permitindo que os usuários revisem interações passadas para reforçar seu conhecimento.
@@ -31,19 +30,7 @@ cp -r /caminho/para/seu/projeto/* .
 
 Certifique-se de substituir `/caminho/para/seu/projeto/` pelo caminho real onde seu projeto está localizado.
 
-### 3. Adicionar, Comitar e Push das Mudanças
-
-Adicione todos os novos arquivos ao Git, faça um commit e envie as mudanças para o repositório remoto.
-
-```sh
-git add .
-git commit -m "Adicionando projeto atual"
-git push origin main
-```
-
-Certifique-se de substituir "main" pelo nome da sua branch principal se for diferente.
-
-### 4. Instalar dependências
+### 3. Instalar dependências
 
 #### Backend
 
@@ -146,11 +133,3 @@ sudo systemctl enable mongod
 - Crie uma conta no [MongoDB Atlas](https://www.mongodb.com/cloud/atlas).
 - Configure um novo cluster.
 - Obtenha a string de conexão e substitua `MONGO_URI` no arquivo `.env` do backend.
-
-## Contribuição
-
-Se você deseja contribuir com este projeto, por favor, abra uma issue ou envie um pull request.
-
-## Licença
-
-Este projeto está licenciado sob a Licença MIT - veja o arquivo LICENSE.md para detalhes.
